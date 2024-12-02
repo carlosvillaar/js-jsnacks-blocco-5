@@ -27,12 +27,13 @@ const students = [
 console.log(student);
 */
 
-const student = students.map((student) => {
-  const myStudent = 'Marco Lanci';
-  if (student.name === myStudent){
-    return student.classe;
-  }
-});
+const student = students.filter((student) => student.name === 'Marco Lanci');
+console.log(student[0].classe);
 
-console.log(student);
+
+
+
+
+
+
 
