@@ -6,3 +6,7 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+for (let person of people){
+  console.log(person.name);
+}
